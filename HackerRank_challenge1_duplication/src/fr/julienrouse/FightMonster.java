@@ -11,7 +11,7 @@ public class FightMonster {
 
 	
 	/**
-	 * 
+	 * Calculate how many hit you need to kill a monster knowing the monster hp and the strength of your hits.
 	 * @param hitpoints monsters hp
 	 * @param hitPower  power of each hit
 	 * @return an integer being how many hit of power hitPower you need to kill a monster with hitpoints life
@@ -21,6 +21,7 @@ public class FightMonster {
 	}
 	
 	/**
+	 * Calculate how many monster maximum can you fight if you can hit t times, and knowing your hit strength and monster hitpoint.
 	 * 
 	 * @param monsters list of monsters hp
 	 * @param hitPower power for each hit
